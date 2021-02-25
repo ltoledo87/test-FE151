@@ -1,0 +1,18 @@
+$color-primario : #00394A;
+$color-secundario : #6FBF49;
+$color-terciario : #eee;
+$text-color-tittles: white;
+$link-color:  green; //red
+$link-hover-color:  $color-secundario; //green
+$enable-responsive-font-sizes: true;
+
+$theme-colors: (
+  "primary": $color-primario,
+  "secondary": $color-secundario,
+  "info": $color-terciario,
+);
+
+@import 'pages/page';
+@import 'navbar/navbar';
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss'
